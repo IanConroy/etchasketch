@@ -3,12 +3,12 @@ document.getElementById("div1").style.margin = "40px";
 document.getElementById("div1").style.overflow = "auto";
 document.getElementById("div1").style.flex = "auto";
 
-function gridMaker(n) {
-    const container = document.querySelector("div1");
-    let divRows = undefined;
-
-    for (i = 0; n > i; i++) {
-        divRows = document.createElement("div")
-        container.appendChild(divRows);
-    }
+function makeGrid() {
+    const container = document.getElementById("container");
+    const makeDiv = document.createElement("div");
+    document.getElementById("container");
+    for (let i = 0; i < 100; i++) {
+    makeDiv.fillStyle = "white";
+    makeDiv.fillRect(5, 5, 5, 5)
+}
 }
