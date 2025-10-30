@@ -1,11 +1,12 @@
 const canvas = document.getElementById("canTest");
 const ctx = canTest.getContext("2d");
 /**const grid = ctx.makeGrid("repeat"); **/
-    ctx.onload = makeGrid("repeat"); {
+    // ctx.onLoad = makeGrid("repeat"); {
     ctx.fillStyle = "#939394ff";
-    ctx.fillRect(10, 10, ctx.width, ctx.height);
-    ctx.createPattern(ctx, "repeat");
-    }
+        ctx.fillRect(30, 30, 20, 20);
+        createPattern(ctx, 256)
+    // ctx.createPattern(ctx, "repeat");
+   // }
 
 /**
 function makeGrid() {
